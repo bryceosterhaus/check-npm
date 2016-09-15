@@ -1,0 +1,16 @@
+{
+  "name": "check-npm",
+  "version": "1.0.0",
+  "description": "Utility to check for un-declared npm dependencies in code base",
+  "main": "index.js",
+  "author": "Bryce Osterhaus",
+  "license": "ISC",
+  "bin": {
+    "check-npm": "index.js"
+  },
+  "dependencies": {
+    "async": "^2.0.1",
+    "fs-readdir-recursive": "^1.0.0",
+    "lodash": "^4.15.0"
+  }
+}
